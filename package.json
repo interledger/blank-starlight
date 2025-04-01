@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.5",
-    "astro": "^5.5.3",
-    "sharp": "^0.32.5"
+    "@interledger/docs-design-system": "^0.6.1",
+    "astro": "^5.5.6",
+    "sharp": "^0.33.5",
+    "starlight-links-validator": "^0.14.3"
   }
 }
