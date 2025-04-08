@@ -27,7 +27,72 @@ export default defineConfig({
       social: {
         github: "https://github.com/interledger/blank-starlight",
       },
-      sidebar: [],
+      sidebar: [
+        {
+          label: "Overview",
+          items: [
+            {label: "Introducing Rafiki", link: "overview/intro"},
+              {
+                label: "Concepts",
+                collapsed: true,
+                items: [],
+              },
+          ],
+        },
+        {
+          label: "Installation",
+          items: [
+            "installation/docker",
+            "installation/kubernetes",
+          ],
+        },
+        {
+          label: "Integration",
+          items: [
+            {
+              label: "Requirements",
+              collapsed: true,
+              items: [],
+            },
+            {
+              label: "Services",
+              collapsed: true,
+              items: [],
+            },
+            {
+              label: "Test locally",
+              collapsed: true,
+              items: [],
+            },
+          ],
+        },
+        {
+          label: "Administration",
+          collapsed: true,
+          items: [
+            {label: "Rafiki Admin", link: "overview/intro"},
+            {
+              label: "Manage liquidity",
+              collapsed: true,
+              items: [],
+            },
+          ],
+        },
+        {
+          label: "Resources",
+          collapsed: true,
+          items: [
+            {label: "Item", link: "overview/intro"},
+          ],
+        },
+        {
+          label: "APIs",
+          collapsed: true,
+          items: [
+            {label: "Item", link: "overview/intro"},
+          ],
+        },
+      ],
     }),
   ],
   server: {
